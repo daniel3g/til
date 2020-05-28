@@ -22,7 +22,7 @@ async function execut(){
         const fase1 = await waitThere('Fase 1', random(0, 3));
         console.log(fase1);
 
-        const fase2 = await waitThere(2222, random(0, 3));
+        const fase2 = await waitThere('Fase 2', random(0, 3));
         console.log(fase2);
 
         const fase3 = await waitThere('Fase 3', random(0, 3));
